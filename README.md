@@ -343,7 +343,7 @@ jason.best_tipper.name #=> "Lisa"
 And there you have it - customers have access to waiters, and waiters have
 access to customers. Notice as well that neither the `Customer` class, nor the
 `Waiter` class needed additional attributes - they don't need to keep track of
-this information; they only need to have the methods that ask the write
+this information; they only need to have the methods that ask the right
 questions - in this case to the `Meal` class, the _join_ between customer and
 waiter.
 
